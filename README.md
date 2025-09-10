@@ -5,6 +5,14 @@ sample YAML app from the CN Series Deploy Github repo
 ### Documentation
 All documentation for the Terraform plans contained in this repository are located in the project wiki located [here](https://github.com/PaloAltoNetworks/cn-series-deploy/wiki).
 
+$ cd sample-application
+
+$ kubectl apply -f guestbook.yml
+
+$ kubectl get pods -n sample-app
+
+$ kubectl get services -n sample-app
+
 ## Support
 
 This template/solution is released under an as-is, best effort, support
